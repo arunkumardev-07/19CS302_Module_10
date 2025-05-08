@@ -1,7 +1,7 @@
-# EX 48 C functions to perform all basic operations in Double Linked List.
-## DATE:07-05-2025
+# EX 49 C function to search an element in the double linked list.
+## DATE: 07-05-2025
 ## AIM:
-To write a C functions to perform all basic operations in Double Linked List.
+To write a C function to search an element in the double linked list.
 
 ## Algorithm:
 1. Start. 
@@ -10,8 +10,8 @@ To write a C functions to perform all basic operations in Double Linked List.
 4. Read the value using scanf. 
 5. Ask the user to make an input. 
 6. Print out the answer. 
-7. End
-   
+7. End   
+
 ## Program:
 ```c program
 struct Node 
@@ -35,6 +35,8 @@ while(temp!=NULL)
 { 
 if(temp->data == item) 
 { 
+ 
+ SAVEETHA ENGINEERING COLLEGE  
 printf("item %d found at location %d",item,i+1); 
 flag=0; 
 } 
@@ -45,14 +47,12 @@ if(flag!=0)
 { 
 printf("Item not found\n"); 
 } 
-} 
 }
 ```
 
 ## Output:
 
-![Screenshot 2025-05-07 224636](https://github.com/user-attachments/assets/e1a2f71b-4dd1-4e50-ad5e-ea4e1b69f084)
-
+![Screenshot 2025-05-07 224921](https://github.com/user-attachments/assets/45caff34-3faa-42bf-a98a-295918b4e877)
 
 
 ## Result:
